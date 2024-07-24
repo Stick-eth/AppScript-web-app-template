@@ -1,0 +1,23 @@
+<html class="h-full bg-gray-100">
+  <head>
+    <title>Template déploiement</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <?!= include('Stylesheet'); ?>
+  </head>
+  <body class="h-full flex flex-col items-center justify-between">
+    <header class="w-full bg-white shadow p-4 flex flex-col items-center">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_Apps_Script.svg/512px-Google_Apps_Script.svg.png" alt="Veolia Logo" class="mb-4" style="max-width: 200px;">
+    </header>
+    <main class="flex-grow flex flex-col items-center justify-center mt-4">
+      <h1 class="text-6xl font-bold mt-4">Application Web</h1>
+      <h2 class="text-xl mt-2 text-gray-600">Commencez à modifier cette page</h2>
+      <a href="https://developers.google.com/apps-script/guides/web?hl=fr" target="_blank" class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded-full glow-on-hover mt-8">
+        Documentation
+      </a>
+    </main>
+    <footer>
+      2024, tous droits réservés.
+    </footer>
+    <?!= include('JavaScript'); ?>
+  </body>
+</html>
