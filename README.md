@@ -4,7 +4,7 @@ Ce projet est un template de déploiement d'application web utilisant Google App
 
 ## Fonctionnalités
 
-- En-tête avec le logo de Veolia
+- En-tête avec le logo de ****
 - Titre principal "Application Web"
 - Sous-titre "Commencez à modifier cette page"
 - Bouton rouge avec effet de glowing qui ouvre un lien dans une nouvelle fenêtre
